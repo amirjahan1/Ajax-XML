@@ -1,0 +1,48 @@
+@import url("./Font/font-face.css");
+
+
+
+/*  First Navbar Min-Wdith:712px  */
+@media (min-width: 713px) {
+   nav ul#secNav{
+        display: none;
+    }
+    nav div#navButton{
+        display: none;
+    }
+}
+
+
+/*  Second Navbar Min-Wdith:712px  */
+@media (max-width: 712px) {
+    nav ul#firstNav{
+        display: none;
+    }
+
+    nav ul#secNav{
+        position: absolute;
+        background-color: #9d174d;
+        top:60px;
+        right: -0.75rem;
+        width: 100vw;
+        z-index: 10!important;
+    }
+
+   main div #boxCard{
+       z-index: 1!important;
+    }
+
+}
+
+.inputChecked:focus{
+    outline: none ;
+    border: none;
+    box-shadow: none;
+}
+
+/*<!--  Navigation Menu  -->*/
+nav{
+    position: sticky !important;
+    top: 0px;
+    z-index: 100!important;
+}

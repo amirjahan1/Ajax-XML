@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<main>
+<item>
+<name> دلار   </name>
+<price> ۲۴۹,۲۹۰   </price>
+<change> -   </change>
+<percent> ۰.۳۶   </percent>
+</item>
+    
+<item>
+<name> یورو   </name>
+<price> ۲۹۳,۵۵۰   </price>
+<change> -   </change>
+<percent> ۰.۴۷   </percent>
+</item>
+<item>
+<name> درهم امارات   </name>
+<price> ۶۷,۹۰۰   </price>
+<change> -   </change>
+<percent> ۰.۳۷   </percent>
+</item>
+<item>
+<name> لیر سوریه(10لیر)   </name>
+<price> ۶۶۵   </price>
+<change> -   </change>
+<percent> ۰.۷۵   </percent>
+</item>
+<item>
+<name> کرون سوئد   </name>
+<price> ۳۰,۴۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> درام ارمنستان   </name>
+<price> ۴۹۵   </price>
+<change> -   </change>
+<percent> ۱.۰۱   </percent>
+</item>
+<item>
+<name> روپیه پاکستان   </name>
+<price> ۱,۷۶۵   </price>
+<change> -   </change>
+<percent> ۰.۸۵   </percent>
+</item>
+<item>
+<name> ریال عربستان   </name>
+<price> ۷۴,۴۸۰   </price>
+<change> -   </change>
+<percent> ۰.۳۲   </percent>
+</item>
+<item>
+<name> روپیه هند   </name>
+<price> ۳,۷۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> ریال قطر   </name>
+<price> ۷۰,۰۰۰   </price>
+<change> -   </change>
+<percent> ۰.۲۹   </percent>
+</item>
+<item>
+<name> رینگیت مالزی   </name>
+<price> ۶۱,۰۰۰   </price>
+<change> -   </change>
+<percent> ۰.۴۹   </percent>
+</item>
+<item>
+<name> دلار نیوزیلند   </name>
+<price> ۱۸۰,۵۰۰   </price>
+<change> +   </change>
+<percent> ۰.۳۳   </percent>
+</item>
+<item>
+<name> دینار بحرین   </name>
+<price> ۶۶۴,۳۰۰   </price>
+<change> -   </change>
+<percent> ۰.۳۶   </percent>
+</item>
+<item>
+<name> کرون نروژ   </name>
+<price> ۲۹,۳۰۰   </price>
+<change> +   </change>
+<percent> ۱.۰۳   </percent>
+</item>
+<item>
+<name> دینار عراق   </name>
+<price> ۲۰۶   </price>
+<change> -   </change>
+<percent> ۰.۴۹   </percent>
+</item>
+<item>
+<name> فرانک سوئیس   </name>
+<price> ۲۷۷,۹۰۰   </price>
+<change> -   </change>
+<percent> ۰.۱۱   </percent>
+</item>
+<item>
+<name> لاری گرجستان   </name>
+<price> ۸۰,۱۰۰   </price>
+<change> -   </change>
+<percent> ۰.۱۲   </percent>
+</item>
+<item>
+<name> روبل روسیه   </name>
+<price> ۳,۹۲۰   </price>
+<change> +   </change>
+<percent> ۲.۶۲   </percent>
+</item>
+<item>
+<name> دینار کویت   </name>
+<price> ۸۴۱,۶۰۰   </price>
+<change> -   </change>
+<percent> ۰.۳۳   </percent>
+</item>
+<item>
+<name> دلار استرالیا   </name>
+<price> ۱۸۹,۴۰۰   </price>
+<change> +   </change>
+<percent> ۰.۴۸   </percent>
+</item>
+<item>
+<name> ریال عمان   </name>
+<price> ۶۵۲,۶۰۰   </price>
+<change> -   </change>
+<percent> ۰.۳۵   </percent>
+</item>
+<item>
+<name> دلار کانادا   </name>
+<price> ۲۰۱,۹۵۰   </price>
+<change> +   </change>
+<percent> ۰.۷   </percent>
+</item>
+<item>
+<name> بات تایلند   </name>
+<price> ۸,۰۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> لیر ترکیه   </name>
+<price> ۲۸,۸۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> پوند انگلیس   </name>
+<price> ۳۵۱,۱۹۰   </price>
+<change> +   </change>
+<percent> ۰.۷۱   </percent>
+</item>
+<item>
+<name> دلار هنگ کنگ   </name>
+<price> ۳۳,۱۰۰   </price>
+<change> -   </change>
+<percent> ۰.۳   </percent>
+</item>
+<item>
+<name> منات آذربایجان   </name>
+<price> ۱۴۷,۹۰۰   </price>
+<change> -   </change>
+<percent> ۰.۲۷   </percent>
+</item>
+<item>
+<name> کرون دانمارک   </name>
+<price> ۴۳,۹۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> یوان چین   </name>
+<price> ۳۸,۷۰۰   </price>
+<change> -   </change>
+<percent> ۰.۲۶   </percent>
+</item>
+<item>
+<name> ین ژاپن(100ین)   </name>
+<price> ۲۳۳,۵۰۰   </price>
+<change> -   </change>
+<percent> ۰.۱۷   </percent>
+</item>
+<item>
+<name> ین ژاپن   </name>
+<price> ۲۲۵,۰۰۰   </price>
+<change> 0   </change>
+<percent> ۰   </percent>
+</item>
+<item>
+<name> لیر سوریه   </name>
+<price> ۶۷۰   </price>
+<change> -   </change>
+<percent> ۴.۴۸</percent>
+</item>
+
+</main>

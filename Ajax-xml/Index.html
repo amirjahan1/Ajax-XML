@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" style="font-family: Vazir"  >
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MR.SARAF</title>
+    <!--  Title Icon  -->
+    <link rel="icon" href="img/TitleIcon.png">
+
+
+    <!--    TAILWIND CSS   -->
+    <link rel="stylesheet" href="css/tailwind.css">
+
+
+    <!--  CheckBox Tailwindcss  -->
+    <link href="https://tailwindcomponents.com/css/component.checkboxes.css" rel="stylesheet">
+
+   <!--   Main Css Style   -->
+    <link rel="stylesheet" href="css/style.css"/>
+    
+</head>
+<body dir="rtl" style="background-color: #DFDFDC;">
+
+<!--/*    Banner Jquery    */-->
+<style>
+
+
+    .banner{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        transition: 1s;
+
+        box-sizing: border-box;
+    }
+    .banner.scrolled{
+        height: 0px;
+    }
+    img.banner{
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+        transition: 1s;
+        z-index: 300    !important;
+
+    }
+    .banner.scrolled img.banner{
+        opacity: 0;
+    }
+
+
+</style>
+
+
+<img src="img/exchange.jpg" alt="" class="banner">
+
+<!--  HEADER  -->
+<header>
+<div class="sm:container flex justify-between items-center mx-auto">
+    <h1 class="text-white sm:text-3xl text-lg filter drop-shadow " id="HeaderTitr"></h1>
+    <img class="w-2/6" src="./img/HeaderMoney.gif" alt="mr.saraf">
+</div>
+
+
+
+
+
+</header>
+
+
+
+<!--  Navigation Menu  -->
+
+<nav class="w-full relative  flex items-center justify-between sti bg-pink-800">
+
+    <!--   Button Responsive Navbar  -->
+    <div id="navButton" class="border rounded p-1 mr-3 text-white transition duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-2xl" id="navButtonIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </div>
+
+    <!--  First NAVBAR MENU   -->
+    <ul id="firstNav" class="flex items-center mr-3">
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2" >
+            <a href="#" class="mx-0.5">  خانه
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                     fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+
+            </a>
+        </li>
+
+
+
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2">
+            <a class="mx-0.5 " href="#">تماس
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+
+            </a>
+
+        </li>
+
+
+
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2">
+            <a class="mx-0.5" href="#">  ورود
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                </svg>
+
+            </a>
+
+        </li>
+        <li class="p-2 flex " >
+
+
+            <input class="p-1 focus-within:outline-none rounded" placeholder="جستوجو..." id="navSearch" type="search" data-filter/>
+
+            <label class="bg-white cursor-pointer text-gray-800 rounded pt-1 left-4 relative" for="navSearch" ><svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                                    class="h-6 w-6"
+                                                                                                                    fill="none"
+                                                                                                                    viewBox="0 0 24 24"
+                                                                                                                    stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg></label>
+
+        </li>
+    </ul>
+
+
+    <!--  Second NAVBAR MENU   -->
+    <ul id="secNav" class="flex items-center flex-col mr-3">
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2" >
+            <a href="#" class="mx-0.5">  خانه</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                 fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg> </li>
+
+
+
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2">
+            <a class="mx-0.5" href="#">ارزها</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </li>
+
+
+
+
+        <li class="p-2 flex text-white duration-200 hover:text-gray-700 mx-2">
+            <a class="mx-0.5" href="#">ورود</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+            </svg>
+        </li>
+        <li class="p-2 flex " >
+
+
+            <input class="p-1 focus-within:outline-none rounded" placeholder="جستوجو..." id="navSearch" type="search" data-filter/>
+
+            <label class="bg-white text-gray-800 rounded pt-1 left-4 relative" for="navSearch" ><svg xmlns="http://www.w3.org/2000/svg"
+                                                                                                     class="h-6 w-6"
+                                                                                                     fill="none"
+                                                                                                     viewBox="0 0 24 24"
+                                                                                                     stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg></label>
+
+        </li>
+    </ul>
+
+    <!--    NAVBAR LOGO  -->
+    <div id="navbarLogo" class="flex items-center ml-5">
+        <h1 class="text-white text-3xl mt-3 font-bold font-semibold ml-2">MR.SARAF</h1>
+        <img src="img/TitleIcon.png" class="h-16 py-2 my-0.5"  alt="Mr.saraf">
+
+    </div>
+
+</nav>
+
+
+
+
+
+<!--  Main Body   -->
+<main>
+
+
+    <div class="w-full mt-10 grid mx-auto grid-cols-3 gap-3">
+
+    <!--    Filter Box     -->
+        <section class=" lg:block hidden" id="inputBox">
+
+
+
+            <div class="filterBox w-full mr-1.5 border-double border-4 border-blue-500 rounded-xl z-10 ">
+
+                <h2 class="text-2xl text-center text-gray-700 bg-white rounded-t-lg z-5 p-2 border-b-2 border-pink-600 " > << فیلتر کنیم >> </h2>
+
+<div id="accordion">
+                <h3 class="bg-white p-1.5 click " id="changing">
+                    کدوم ارز ها رو نمایش بدیم؟؟؟
+                </h3>
+                <div class="bg-white flex justify-center p-1.5">
+            <label class="inline-flex items-center mt-3">
+                <input type="radio"  value="plus" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked filter1" data-fbdeep="0"  name="filter1" /><span
+                    class="ml-2 text-gray-700">افزایش داشته
+            </span>
+            </label>
+                <label class="inline-flex items-center mt-3 pb-1.5">
+                    <input type="radio" value="0" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked filter1" data-fbdeep="0"  name="filter1" /><span
+                        class="ml-2 text-gray-700">تغییری نکرده
+            </span>
+                </label>
+
+                <label class="inline-flex items-center mt-3">
+                    <input type="radio"  value="-" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked filter1" data-fbdeep="0"  name="filter1" /><span
+                        class="ml-2 text-gray-700">کاهش داشته
+            </span>
+                </label>
+                </div>
+
+                <h3 class="bg-white p-1.5 z-2 border-dashed border-t-2 border-blue-600 click " id="priceChange">
+                  نرخ چه نوع ارزی رو میخواهی؟؟؟
+                </h3>
+                <div class="bg-white flex justify-center p-1.5  ">
+                    <label class="inline-flex items-center ">
+                        <input type="radio" name="nerkh" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                            class="ml-2 text-gray-700">نرخ اسکناس
+            </span>
+                    </label>
+
+
+
+                    <label class="inline-flex items-center ">
+                        <input type="radio" name="nerkh" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                            class="ml-2 text-gray-700">نرخ حواله
+            </span>
+                    </label>
+
+
+                <label class="inline-flex items-center ">
+                    <input type="radio" name="nerkh" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                        class="ml-2 text-gray-700">هر دو
+            </span>
+                </label>
+                </div>
+
+    <h3 class="bg-white p-1.5 z-2 border-dashed border-t-2  border-blue-600 click " id="buyPrice">
+
+        کدوم وضعیت خرید ارزها رو میخوای؟؟؟
+    </h3>
+    <div class="bg-white flex justify-center p-1.5   ">
+        <label class="inline-flex items-center ">
+            <input type="radio" name="infoPrice" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                class="ml-2 text-gray-700">بیشترین خرید
+            </span>
+        </label>
+
+
+
+        <label class="inline-flex items-center ">
+            <input type="radio" name="infoPrice" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                class="ml-2 text-gray-700">کمترین خرید
+            </span>
+        </label>
+
+
+
+    </div>
+
+    <h3 class="bg-white p-1.5 z-2 border-dashed border-t-2 rounded-b-lg border-blue-600 " id="sellPrice">
+
+        کدوم وضعیت فروش ارزها رو میخوای؟؟؟
+    </h3>
+    <div class="bg-white flex justify-center p-1.5  rounded-b-lg ">
+        <label class="inline-flex items-center ">
+            <input type="radio" name="infoPrice" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                class="ml-2 text-gray-700">بیشترین فروش
+            </span>
+        </label>
+
+
+
+        <label class="inline-flex items-center ">
+            <input type="radio" name="infoPrice" class="form-radio bg-gray-300 outline-none h-5 w-5 text-pink-600 inputChecked" /><span
+                class="ml-2 text-gray-700">کمترین فروش
+            </span>
+        </label>
+
+
+
+    </div>
+            </div>
+            </div>
+
+            <img src="./img/bodyMoney.gif" class="w-full" alt="">
+        </section>
+
+
+        <!--    Card Box    -->
+        <div class="lg:col-span-2 col-span-3 grid gap-1 sm:grid-cols-3 grid-cols-1 jscroll" id="boxCard">
+
+
+
+        </div>
+
+    </div>
+
+
+</main>
+
+
+
+
+
+
+
+
+<!--  Jquery-3.6.0.min.js  -->
+<script src="./js/jquery-3.6.0.min.js"></script>
+
+<!--   Jquery UI   -->
+<script src="./js/jquery-ui.js"></script>
+
+<!--  Type Js Jquery Plugin  -->
+<script src="js/typer.min.js"></script>
+
+<!--  Filter Item Search  -->
+<script src="js/autofilter.js"></script>
+
+<!--  Filter Item Radio  -->
+<script src="js/filterbucks.min.js"></script>
+
+<script src="js/infinite_scroll.js"></script>
+
+<!--  Main Script  -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

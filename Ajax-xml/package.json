@@ -1,0 +1,22 @@
+{
+  "name": "Exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./css/style.css -o ./src/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "jscroll": "^2.4.1",
+    "postcss-cli": "^8.3.1",
+    "shufflejs": "^5.4.1",
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss-rtl": "^0.7.3"
+  }
+}
